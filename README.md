@@ -12,7 +12,7 @@ This project presents a comprehensive analysis of marketing campaign performance
 ## 📁 Table of Contents
 
 - [Project Overview](#project-overview)
-- [Dashboard Screenshots](#power-bi-dashboard-overview)
+- [Power BI Overview](#power-bi-dashboard-overview)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Key Metrics & Insights](#key-metrics--insights)
 - [Tech Stack & Tools Used](#tech-stack--tools-used)
@@ -74,7 +74,7 @@ Interactive Multi-Page Dashboard
 ---
 
 ## Power BI Dashboard Overview
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 After importing the cleaned dataset from Google Colab into Power BI, I developed an interactive dashboard to comprehensively analyse campaign performance. To support this analysis, I created several DAX measures and calculated columns, including:
 
@@ -86,7 +86,7 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 - ROAS Sort
 
 
-**Dashboard Screenshots**
+##Dashboard Screenshots
 
 ### 1. Marketing Campaign Performance Analysis
 > Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
