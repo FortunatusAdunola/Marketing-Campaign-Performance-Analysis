@@ -130,7 +130,7 @@ To evaluate the effectiveness and profitability of marketing campaigns across ch
 ## Exploratory Data Analysis (EDA)
 
 All EDA was performed in Python using Pandas, NumPy, Matplotlib, and Seaborn.
-📓 Full notebook: [`Marketing_Performance_Campaign.ipynb`](notebooks/Marketing_Performance_Campaign.ipynb)
+📓 Full notebook: [`Marketing_Performance_Campaign.ipynb`](https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/NoteBook/Marketing_Performance_Campaign.ipynb)
 
 ---
 
