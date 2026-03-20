@@ -1,15 +1,10 @@
-**Marketing Campaign Performance Analysis**
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Project Overview**
-This project presents a comprehensive analysis of marketing campaign performance using Python for data preprocessing and Power BI for interactive visualization. The objective is to evaluate campaign effectiveness, efficiency, and revenue outcomes across multiple channels and customer segments. The dashboard enables stakeholders to explore key marketing metrics, identify performance trends, and support data-driven decision-making.
-
- # 📊 Marketing Campaign Performance Analysis
+ # Marketing Campaign Performance Analysis
  
 > A comprehensive multi-dashboard Power BI analysis covering **Campaign Performance**, **Profitability**, and **Efficiency** across six digital marketing channels for fiscal year 2021, supported by Python-based Exploratory Data Analysis (EDA) on **69,669 campaign records**.
 
 ---
 
-## 📁 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Power BI Overview](#power-bi-dashboard-overview)
@@ -86,7 +81,7 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 - ROAS Sort
 
 
-##Dashboard Screenshots
+### Dashboard Screenshots
 
 ### 1. Marketing Campaign Performance Analysis
 > Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
@@ -98,7 +93,7 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 ### 2. Marketing Profitability Analysis
 > Evaluates ROAS distribution, revenue by campaign, and financial performance by customer segment.
 
-<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png?raw=true" width="800">
+<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png" width="800">
 
 ---
 
@@ -108,7 +103,7 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 <img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_profitability.png" width="800">
 ---
 
-> 📌 **Note:** To view live interactive dashboards, open the `.pbix` file in **Power BI Desktop** or publish to **Power BI Service**.
+>  **Note:** To view live interactive dashboards, open the `.pbix` file in **Power BI Desktop** or publish to **Power BI Service**.
 
 ---
 
@@ -172,8 +167,8 @@ df['Month'] = df['Date'].dt.month
 
 | Column | Before | After |
 |--------|--------|-------|
-| `Acquisition_Cost` | `object` | `float64` ✅ |
-| `Date` | `object` | `datetime64[ns]` ✅ |
+| `Acquisition_Cost` | `object` | `float64` |
+| `Date` | `object` | `datetime64[ns]`  |
 
 **Dataset after type correction: 69,669 rows × 17 columns** (Month column added)
 
@@ -202,7 +197,7 @@ df.isnull().sum()
 | Customer_Segment | **1** |
 | Date | **1** |
 
-> ✅ Only 1 missing record across 7 columns — all from the same row. At 69,669 total records, the missing rate is **< 0.002%** and has no material impact on analysis.
+>  Only 1 missing record across 7 columns — all from the same row. At 69,669 total records, the missing rate is **< 0.002%** and has no material impact on analysis.
 
 ---
 
@@ -213,7 +208,7 @@ df.duplicated().sum()
 # Output: 0
 ```
 
-> ✅ No duplicate records found.
+> No duplicate records found.
 
 ---
 
@@ -234,7 +229,7 @@ df.describe()
 | **Max** | 0.150 | 20,000.00 | 8.00 | 1,000.0 | 10,000.0 | 10.0 |
 | **Std Dev** | 0.041 | 4,338.99 | 1.74 | 259.95 | 2,593.46 | 2.87 |
 
-> 📌 **Key Observations:**
+>  **Key Observations:**
 > - Average acquisition cost is **$12,507** with a wide range of $5,000–$20,000
 > - ROI ranges from **2.0x** (worst) to **8.0x** (best), averaging **5.0x**
 > - Clicks and Impressions are uniformly distributed (mean ≈ median)
@@ -289,7 +284,7 @@ df.groupby("Channel_Used")[["Revenue", "Acquisition_Cost"]].sum()
 | Google Ads | 869,699,700 | 144,713,061 |
 | YouTube | 868,983,200 | 144,675,150 |
 
-> 📊 All six channels generate nearly identical revenue (~$864M–$882M), confirming a well-balanced portfolio with no single dominant channel.
+>  All six channels generate nearly identical revenue (~$864M–$882M), confirming a well-balanced portfolio with no single dominant channel.
 
 ---
 
@@ -301,14 +296,14 @@ df.groupby("Channel_Used")["ROI"].mean().sort_values(ascending=False)
 
 | Rank | Channel | Avg ROI |
 |------|---------|---------|
-| 🥇 1 | Email | 5.026 |
-| 🥈 2 | Google Ads | 5.014 |
-| 🥉 3 | Website | 5.012 |
+|  1 | Email | 5.026 |
+|  2 | Google Ads | 5.014 |
+|  3 | Website | 5.012 |
 | 4 | Facebook | 5.007 |
 | 5 | YouTube | 5.003 |
 | 6 | Instagram | 4.978 |
 
-> 📊 Email leads ROI at 5.03x while Instagram trails at 4.98x. The spread of only **0.048 points** across all channels signals near-uniform efficiency — strong execution across the board with limited channel differentiation.
+>  Email leads ROI at 5.03x while Instagram trails at 4.98x. The spread of only **0.048 points** across all channels signals near-uniform efficiency — strong execution across the board with limited channel differentiation.
 
 ---
 
@@ -327,7 +322,7 @@ df.groupby("Channel_Used")["Conversion_Rate"].mean()
 | Instagram | 7.99% |
 | YouTube | 7.98% |
 
-> 📊 Conversion rates are virtually identical across all channels (~8%). Google Ads leads marginally at 8.05%, reinforcing its position as a reliable performance channel.
+>  Conversion rates are virtually identical across all channels (~8%). Google Ads leads marginally at 8.05%, reinforcing its position as a reliable performance channel.
 
 ---
 
@@ -350,7 +345,7 @@ df.sort_values("ROI", ascending=False).head(10)
 | 64344 | Innovate Industries | Influencer | YouTube | 12,094 | 8.0 | 108,846 |
 | 15652 | DataTech Solutions | Display | Website | 12,708 | 8.0 | 114,372 |
 
-> 📊 Top performers span multiple channels and campaign types — no single format dominates peak ROI. **Innovate Industries** appears 5 times, making it the strongest-performing company in the portfolio.
+>  Top performers span multiple channels and campaign types — no single format dominates peak ROI. **Innovate Industries** appears 5 times, making it the strongest-performing company in the portfolio.
 
 ---
 
@@ -373,7 +368,7 @@ df.sort_values("ROI").head(10)
 | 10286 | Alpha Innovations | Email | Facebook | 18,589 | 2.0 | 55,767 |
 | 7824 | TechCorp | Social Media | Google Ads | 17,374 | 2.0 | 52,122 |
 
-> ⚠️ **TechCorp dominates the worst-performing list** with 5 of 10 entries. High acquisition costs ($17K–$19K) paired with the minimum ROI of 2.0x indicate severely inefficient spend. These campaigns are prime candidates for immediate budget reallocation.
+>  **TechCorp dominates the worst-performing list** with 5 of 10 entries. High acquisition costs ($17K–$19K) paired with the minimum ROI of 2.0x indicate severely inefficient spend. These campaigns are prime candidates for immediate budget reallocation.
 
 ---
 
@@ -438,9 +433,9 @@ df.to_csv("marketing_campaign_cleaned.csv", index=False)
 | 2 | 🔴 **Critical** | **Review TechCorp campaigns** — 5 of 10 worst-performing campaigns are TechCorp. Conduct a full strategic review of their targeting, creative, and channel mix. |
 | 3 | 🟠 **High** | **Implement impression frequency caps** — Set a 3,000–5,000 impression ceiling per segment and rotate creatives every 2–3 weeks to counter audience fatigue. |
 | 4 | 🟠 **High** | **Conduct Customer LTV segmentation analysis** — Revenue parity across segments may mask LTV differences; redirect budgets based on lifetime profitability. |
-| 5 | 🟡 **Medium** | **Sunset Low ROAS campaigns** — Establish a 3x ROAS minimum threshold and reallocate budgets from underperformers each quarter. |
-| 6 | 🟡 **Medium** | **Test channel concentration** — Pilot a 20% budget increase toward Email and Google Ads (highest ROI) over 90 days to measure marginal returns. |
-| 7 | 🟡 **Medium** | **Explore seasonal amplification** — Overlay revenue-per-quarter with demand calendars to identify high-value seasonal spend windows. |
+| 5 | 🟡   **Medium** | **Sunset Low ROAS campaigns** — Establish a 3x ROAS minimum threshold and reallocate budgets from underperformers each quarter. |
+| 6 | 🟡   **Medium** | **Test channel concentration** — Pilot a 20% budget increase toward Email and Google Ads (highest ROI) over 90 days to measure marginal returns. |
+| 7 | 🟡   **Medium**  | **Explore seasonal amplification** — Overlay revenue-per-quarter with demand calendars to identify high-value seasonal spend windows. |
 | 8 | 🟢 **Low** | **Diversify campaign creative formats** — Test video-first and interactive ad formats to break the uniform CTR plateau. |
 
 ---
@@ -448,7 +443,7 @@ df.to_csv("marketing_campaign_cleaned.csv", index=False)
 ## Documentation
 
 - 📄 [`Marketing_Analytics_Report.docx`](docs/Marketing_Analytics_Report.docx) — Full stakeholder Word report
-- 📓 [`Marketing_Performance_Campaign.ipynb`](notebooks/Marketing_Performance_Campaign.ipynb) — Python EDA notebook
+- 📓 [`Marketing_Performance_Campaign.ipynb`](https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/NoteBook/Marketing_Performance_Campaign.ipynb)— Python EDA notebook
 
 ---
 
