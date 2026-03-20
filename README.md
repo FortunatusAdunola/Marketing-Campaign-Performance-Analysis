@@ -3,8 +3,30 @@
 **Project Overview**
 This project presents a comprehensive analysis of marketing campaign performance using Python for data preprocessing and Power BI for interactive visualization. The objective is to evaluate campaign effectiveness, efficiency, and revenue outcomes across multiple channels and customer segments. The dashboard enables stakeholders to explore key marketing metrics, identify performance trends, and support data-driven decision-making.
 
-**Objectives**
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ # 📊 Marketing Campaign Performance Analysis
+ 
+> A comprehensive multi-dashboard Power BI analysis covering **Campaign Performance**, **Profitability**, and **Efficiency** across six digital marketing channels for fiscal year 2021, supported by Python-based Exploratory Data Analysis (EDA) on **69,669 campaign records**.
+
+---
+
+## 📁 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dashboard Screenshots](#power-bi-dashboard-overview)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Key Metrics & Insights](#key-metrics--insights)
+- [Tech Stack & Tools Used](#tech-stack--tools-used)
+- [Recommendations](#recommendations)
+- [Documentation](#documentation)
+- [Repository Structure](#repository-structure)
+
+---
+
+## Project Overview
+
+This project presents a comprehensive analysis of marketing campaign performance using Python for data preprocessing and Power BI for interactive visualization. The objective is to evaluate campaign effectiveness, efficiency, and revenue outcomes across multiple channels and customer segments. The dashboard enables stakeholders to explore key marketing metrics, identify performance trends, and support data-driven decision-making. The analysis covers **69,669 campaign records** across **6 digital channels** and **5 campaign types** during the full 2021 fiscal year. Designed to support data-driven decisions at the executive and operational levels.
+
+### Business Objective
 
 The objective of this project is to:
 
@@ -37,55 +59,6 @@ Power BI (Data Model + DAX Measures)
       ↓
 Interactive Multi-Page Dashboard
 ``` 
-**Data Cleaning & Preparation**
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Data preprocessing was performed using Python to ensure accuracy and consistency:
-
-- Checked and handled missing values
-- Validated numerical fields (cost, revenue, conversions)
-- Removed inconsistencies and ensured data integrity
-- Verified calculated fields such as CTR and Conversion Rate
-- Exported cleaned dataset for visualisation in Power BI
-
-**Power BI Dashboard Overview**
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-After importing the cleaned dataset from Google Colab into Power BI, I developed an interactive dashboard to comprehensively analyse campaign performance. To support this analysis, I created several DAX measures and calculated columns, including:
-
-- Date Table
-- Customer Acquisition Cost (CAC)
-- Click-Through Rate (CTR)
-- Return on Investment (ROI)
-- ROAS Category
-- ROAS Sort
-
- # 📊 Marketing Campaign Analytics — Power BI Dashboard Report
-
-> A comprehensive multi-dashboard Power BI analysis covering **Campaign Performance**, **Profitability**, and **Efficiency** across six digital marketing channels for fiscal year 2021, supported by Python-based Exploratory Data Analysis (EDA) on **69,669 campaign records**.
-
----
-
-## 📁 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Dashboard Screenshots](#dashboard-screenshots)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Key Metrics & Insights](#key-metrics--insights)
-- [Tech Stack & Tools Used](#tech-stack--tools-used)
-- [Recommendations](#recommendations)
-- [Documentation](#documentation)
-- [Repository Structure](#repository-structure)
-
----
-
-## Project Overview
-
-This project delivers an end-to-end marketing analytics solution combining Python EDA and Power BI dashboards. The analysis covers **69,669 campaign records** across **6 digital channels** and **5 campaign types** during the full 2021 fiscal year. Designed to support data-driven decisions at the executive and operational levels.
-
-### Business Objective
-
-To evaluate the effectiveness and profitability of marketing campaigns across channels, identify cost inefficiencies, and surface actionable insights to optimize future advertising spend.
 
 ### Scope
 
@@ -100,12 +73,25 @@ To evaluate the effectiveness and profitability of marketing campaigns across ch
 
 ---
 
-## Dashboard Screenshots
+## Power BI Dashboard Overview
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+After importing the cleaned dataset from Google Colab into Power BI, I developed an interactive dashboard to comprehensively analyse campaign performance. To support this analysis, I created several DAX measures and calculated columns, including:
+
+- Date Table
+- Customer Acquisition Cost (CAC)
+- Click-Through Rate (CTR)
+- Return on Investment (ROI)
+- ROAS Category
+- ROAS Sort
+
+
+**Dashboard Screenshots**
 
 ### 1. Marketing Campaign Performance Analysis
 > Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
 
-![Marketing Campaign Performance Analysis](Screenshots/dashboard_campaign_performance.png)
+![Marketing Campaign Performance Analysis](https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_campaign_performance.png)
 
 ---
 
