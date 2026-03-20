@@ -91,22 +91,21 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 ### 1. Marketing Campaign Performance Analysis
 > Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
 
-![Marketing Campaign Performance Analysis](<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_campaign_performance.png" width="800">)
+<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_campaign_performance.png" width="800">
 
 ---
 
 ### 2. Marketing Profitability Analysis
 > Evaluates ROAS distribution, revenue by campaign, and financial performance by customer segment.
 
-![Marketing Profitability Analysis](https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png?raw=true)
+<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png?raw=true" width="800">
 
 ---
 
 ### 3. Marketing Campaign Efficiency Analysis
 > Cross-validates engagement and cost metrics to assess campaign-level efficiency and audience saturation.
 
-![Marketing Campaign Efficiency Analysis](Screenshots/dashboard_efficiency.png)
-
+<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png?raw=true" width="800">
 ---
 
 > 📌 **Note:** To view live interactive dashboards, open the `.pbix` file in **Power BI Desktop** or publish to **Power BI Service**.
