@@ -23,3 +23,27 @@ These objectives informed the key business questions that guided the analysis:
 - Which campaigns are the most cost-efficient, and which are underperforming based on CAC and conversion outcomes?
 - How does engagement (CTR) change as campaign reach increases?
 - Which marketing channels contribute most to revenue and conversions, and how do they compare in efficiency?
+
+**Project Architecture**
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+Raw Dataset
+      ↓
+Python (Data Cleaning & Feature Engineering)
+      ↓
+Clean Analytical Dataset (CSV Export)
+      ↓
+Power BI (Data Model + DAX Measures)
+      ↓
+Interactive Multi-Page Dashboard
+``` 
+**Data Cleaning & Preparation**
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data preprocessing was performed using Python to ensure accuracy and consistency:
+
+- Checked and handled missing values
+- Validated numerical fields (cost, revenue, conversions)
+- Removed inconsistencies and ensured data integrity
+- Verified calculated fields such as CTR and Conversion Rate
+- Exported cleaned dataset for visualisation in Power BI
