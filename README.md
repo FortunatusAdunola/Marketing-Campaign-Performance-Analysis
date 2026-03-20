@@ -90,17 +90,18 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 
 ---
 
-### 2. Marketing Profitability Analysis
+### 2. Marketing Campaign Profitability Analysis
 > Evaluates ROAS distribution, revenue by campaign, and financial performance by customer segment.
 
-<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png" width="800">
+<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_profitability.png" width="800">
 
 ---
 
 ### 3. Marketing Campaign Efficiency Analysis
 > Cross-validates engagement and cost metrics to assess campaign-level efficiency and audience saturation.
 
-<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_profitability.png" width="800">
+<img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png" width="800">
+
 ---
 
 >  **Note:** To view live interactive dashboards, open the `.pbix` file in **Power BI Desktop** or publish to **Power BI Service**.
