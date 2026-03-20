@@ -105,21 +105,21 @@ To evaluate the effectiveness and profitability of marketing campaigns across ch
 ### 1. Marketing Campaign Performance Analysis
 > Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
 
-![Marketing Campaign Performance Analysis](screenshots/dashboard_campaign_performance.png)
+![Marketing Campaign Performance Analysis](Screenshots/dashboard_campaign_performance.png)
 
 ---
 
 ### 2. Marketing Profitability Analysis
 > Evaluates ROAS distribution, revenue by campaign, and financial performance by customer segment.
 
-![Marketing Profitability Analysis](screenshots/dashboard_profitability.png)
+![Marketing Profitability Analysis](Screenshots/dashboard_profitability.png)
 
 ---
 
 ### 3. Marketing Campaign Efficiency Analysis
 > Cross-validates engagement and cost metrics to assess campaign-level efficiency and audience saturation.
 
-![Marketing Campaign Efficiency Analysis](screenshots/dashboard_efficiency.png)
+![Marketing Campaign Efficiency Analysis](Screenshots/dashboard_efficiency.png)
 
 ---
 
