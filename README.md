@@ -464,22 +464,12 @@ marketing-analytics-powerbi/
 │   ├── dashboard_profitability.png
 │   └── dashboard_efficiency.png
 │
-├── data/
-│   ├── marketing_campaign_dataset.csv          # Raw source data
-│   └── marketing_campaign_cleaned.csv          # Cleaned dataset with KPIs
 │
 ├── docs/
-│   └── Marketing_Analytics_Report.docx         # Full stakeholder report
+│   └── Marketing_Campaign_Performance_Analytics_Report.pdf         # Full stakeholder report
 │
 └── README.md
 ```
-
----
-
-## License
-
-This project is intended for internal business and portfolio use. All data has been anonymized for public sharing.
-
 ---
 
 *Dataset: 69,669 records | Reporting Period: January 1 – December 31, 2021 | Prepared for internal stakeholder review*
