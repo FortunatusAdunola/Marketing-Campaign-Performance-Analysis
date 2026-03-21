@@ -84,7 +84,7 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 ### Dashboard Screenshots
 
 ### 1. Marketing Campaign Performance Analysis
-> Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
+> Cross-validates engagement and cost metrics to assess campaign-level efficiency and audience saturation.
 
 <img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_campaign_performance.png" width="800">
 
@@ -98,7 +98,7 @@ After importing the cleaned dataset from Google Colab into Power BI, I developed
 ---
 
 ### 3. Marketing Campaign Efficiency Analysis
-> Cross-validates engagement and cost metrics to assess campaign-level efficiency and audience saturation.
+> Tracks audience engagement, Customer Acquisition Cost (CAC), and Click-Through Rate (CTR) across campaign types and channels.
 
 <img src="https://github.com/FortunatusAdunola/Marketing-Campaign-Performance-Analysis/blob/main/Marketing%20Campaign%20Performance/Screenshots/dashboard_efficiency.png" width="800">
 
