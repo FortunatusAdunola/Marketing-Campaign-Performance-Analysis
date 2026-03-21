@@ -468,6 +468,9 @@ marketing-analytics-powerbi/
 ├── docs/
 │   └── Marketing_Campaign_Performance_Analytics_Report.pdf         # Full stakeholder report
 │
+└── Marketing_Performance_Campaign.ipynb
+|
+|
 └── README.md
 ```
 ---
